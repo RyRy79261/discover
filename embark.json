@@ -10,7 +10,8 @@
     "embark-etherscan-verifier": {},
     "@trailofbits/embark-contract-info": {
       "flags": ""
-    }
+    },
+    "embark-geth": {}
   },
   "options": {
     "solc": {
