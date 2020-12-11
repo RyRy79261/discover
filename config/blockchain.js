@@ -16,15 +16,16 @@ module.exports = {
 
   development: {
     networkType: 'testnet',
-    endpoint: `https://ropsten.infura.io/v3/8675214b97b44e96b70d05326c61fd6a`,
+    endpoint: `https://ropsten.infura.io/v3/8675214b97b44e96b70d05326c61fd6a`
   },
 
   testnet: {
     networkType: 'testnet',
-    endpoint: `https://ropsten.infura.io/v3/8675214b97b44e96b70d05326c61fd6a`,
+    endpoint: `https://ropsten.infura.io/v3/8675214b97b44e96b70d05326c61fd6a`
   },
 
   livenet: {
-    endpoint: `https://mainnet.infura.io/v3/8675214b97b44e96b70d05326c61fd6a`,
-  },
-}
+    networkType: "livenet",
+    endpoint: `https://mainnet.infura.io/v3/8675214b97b44e96b70d05326c61fd6a`
+  }
+};

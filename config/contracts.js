@@ -1,5 +1,6 @@
 module.exports = {
   default: {
+    library: 'embarkjs',  // can be also be 'web3'
     dappAutoEnable: false,
 
     gas: 'auto',
@@ -36,9 +37,7 @@ module.exports = {
       'https://ropsten.infura.io/v3/8675214b97b44e96b70d05326c61fd6a',
     ],
     deploy: {
-      Discover: {
-        address:"0xe47ADA6f49d97F12327e46FD12fda5cce01Fb773"
-      }
+    
     },
     tracking: 'shared.testnet.chains.json',
   },
